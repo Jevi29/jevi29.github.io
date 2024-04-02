@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container{
+    height: 100svh;
+}
+
+nav a{
+    color: black;
+    transition: linear .5s;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    color: #c34a58;
+}
+
+nav{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: #c34a58;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 30px;
+}
+
+header{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    font-size: 50px;
+}

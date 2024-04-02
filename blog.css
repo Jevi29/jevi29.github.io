@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+nav a{
+    color: black;
+    transition: linear .5s;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    color: #e88c96;
+}
+
+nav{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: #c34a58;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.container{
+    height: 90svh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+.blog img{
+    width: 300px;
+}
